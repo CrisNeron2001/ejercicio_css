@@ -3,8 +3,8 @@
     flex-direction: row;
 }
 .imgTommy{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border: 2rem;
 }
 .Miguel{
@@ -12,8 +12,8 @@
     flex-direction: row;
 }
 .imgMiguel{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border: 2rem;
 }
 .Ginger{
@@ -59,19 +59,13 @@
     border: 2rem;
 }
 .menu{
-    padding-top: 10%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 10%;
-    height: 25%;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(49, 49, 49);
-
+    margin-top: 2%;
+    width: 20%;
 }
 h1{
     font-family: sans-serif;
     justify-content: center;
+    font-weight: bold;
     text-indent: 10px;
     letter-spacing: 3px;
     color: white;
@@ -79,13 +73,15 @@ h1{
 h2{
     font-family: sans-serif;
     justify-content: center;
+    font-weight: bold;
     text-indent: 10px;
     letter-spacing: 3px;
     color: white;
 }
 p{
     font-family: sans-serif;
-    justify-content: center;
+    justify-content: flex-start;
+    font-weight: bold;
     text-indent: 10px;
     letter-spacing: 3px;
     color: white;
@@ -96,9 +92,9 @@ p{
     text-indent: 10px;
     letter-spacing: 3px;
     color: white;
+    font-weight: bold;
 }
 body{
-    max-height: 20%;
     background-color: rgb(49, 49, 49);
 }
 a:link, a:visited, a:active{
@@ -111,6 +107,18 @@ a:link, a:visited, a:active{
 }
 a:hover{
     color: white;
+}
+.body2{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    float:right;
+    width:80%;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
 .boxer1{
     padding-top: 2%;

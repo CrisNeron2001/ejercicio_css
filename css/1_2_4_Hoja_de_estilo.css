@@ -3,6 +3,7 @@
     flex-direction: row;
 }
 .imgTommy{
+    float: left;
     width: 350px;
     height: 350px;
     border: 2rem;
@@ -12,6 +13,7 @@
     flex-direction: row;
 }
 .imgMiguel{
+    float: left;
     width: 350px;
     height: 350px;
     border: 2rem;
@@ -21,6 +23,7 @@
     flex-direction: row;
 }
 .imgGinger{
+    float: left;
     width: 350px;
     height: 350px;
     border: 2rem;
@@ -30,8 +33,7 @@
     flex-direction: row;
 }
 .imgNeron{
-    justify-content: flex-start;
-    display: flex;
+    float: left;
     width: 350px;
     height: 350px;
     border: 2rem;
@@ -41,8 +43,7 @@
     flex-direction: row;
 }
 .imgAvena{
-    justify-content: center;
-    display: flex;
+    float: left;
     width: 350px;
     height: 350px;
     border: 2rem;
@@ -52,8 +53,7 @@
     flex-direction: row;
 }
 .imgFran{
-    justify-content: flex-end;
-    display: flex;
+    float: left;
     width: 350px;
     height: 350px;
     border: 2rem;
